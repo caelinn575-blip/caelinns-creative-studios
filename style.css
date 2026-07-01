@@ -401,3 +401,34 @@ html{
     margin-left:0;
   }
 }
+#project-house-ai{
+    background:#111;
+}
+
+#project-house-ai h2{
+    color:#d4af37;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+#project-house-ai p{
+    color:#ddd;
+}
+
+#project-house-ai .portfolio-card{
+    background:#1b1b1b;
+    border:1px solid rgba(212,175,55,.25);
+    border-radius:15px;
+    padding:20px;
+    transition:.3s;
+}
+
+#project-house-ai .portfolio-card:hover{
+    transform:translateY(-6px);
+    border-color:#d4af37;
+    box-shadow:0 0 18px rgba(212,175,55,.25);
+}
+
+#project-house-ai h3{
+    color:#d4af37;
+}
