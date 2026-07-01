@@ -432,3 +432,40 @@ html{
 #project-house-ai h3{
     color:#d4af37;
 }
+/* Part 11: Mobile navigation polish */
+
+.navbar{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:10px;
+}
+
+.navbar a{
+  border:1px solid rgba(212,175,55,.25);
+  border-radius:25px;
+  padding:8px 14px;
+  transition:.3s;
+}
+
+.navbar a:hover{
+  background:#d4af37;
+  color:#080808;
+  box-shadow:0 0 14px rgba(212,175,55,.35);
+}
+
+@media(max-width:700px){
+  .navbar{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+    margin-top:18px;
+  }
+
+  .navbar a{
+    margin:0;
+    text-align:center;
+    font-size:14px;
+    padding:10px;
+  }
+}
